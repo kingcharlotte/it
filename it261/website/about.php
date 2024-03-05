@@ -5,6 +5,8 @@ include('./includes/header.php'); ?>
 
 <main>
 <a href="about.php"></a>
+<img src="images/table.jpeg" alt="Table"> 
+
 </main>
 
 <?php
@@ -13,6 +15,7 @@ include('./includes/header.php'); ?>
 echo '<h1>ABOUT PAGE</h1>';
 
 echo '<h2>Time for our navigation that will again have both a key and a value</h2>';
+
 
 $nav = array(
     'index.php' => 'Home',
@@ -34,7 +37,7 @@ foreach ($nav as $key => $value) {
 echo'</ul>';
 
 
-echo '<h2>Our navigation will display a different color when on the index.php page!</h2>';
+echo '<h3>Our navigation will display a different color when on the index.php page!</h3>';
 
 // we are going to define a constant 
 // if we are on the index page THIS_PAGE will be the index page
